@@ -9,12 +9,27 @@
 </head>
 <body>
     <h2>todos</h2>
-    <div class="container">
+    <div id="container">
         <input type="text" id="add-task" placeholder="add a task">
         <ul id="list">
-            <li id="task1"><label for="task1">go to gym</label></li>
-            <li id="task2"><label for="task2">do coding</label></li>
-            <li id="task3"><label for="task3">do mediatation</label></li>
+            <li>
+                <input type="checkbox" id="task1">
+                <label for="task1">
+                    go to gym
+                </label>
+            </li>
+            <li>
+                <input type="checkbox" id="task2">
+                <label for="task2">
+                    complete js projects
+                </label>
+            </li>
+            <li>
+                <input type="checkbox" id="task3">
+                <label for="task3">
+                    meditate for 5 mins
+                </label>
+            </li>
         </ul>
     </div>
     <script src="app.js"></script>

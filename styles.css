@@ -3,4 +3,38 @@
 body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
 }
+
+h2{
+    text-align: center;
+    font-size: 4.5rem;
+    color: rgb(243, 122, 122);
+    opacity: 0.6;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 0.4em;
+}
+
+#container{
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#add-task{
+    min-width: 100%;
+    padding:  1em 0em 1em 1em;
+    font-family: inherit;
+    font-size: large;
+}
+
+#list{
+    padding: 0;
+    list-style-type: none;
+}
+
+#list li{
+    margin: 0.7em;
+}
+
