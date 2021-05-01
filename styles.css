@@ -17,13 +17,13 @@ h2{
 }
 
 #container{
-    width: 500px;
+    width: 480px;
     max-width: 100%;
     margin: 0 auto;
 }
 
 #add-task{
-    min-width: 100%;
+    width: 100%;
     padding:  1em 0em 1em 1em;
     font-family: inherit;
     font-size: large;
@@ -35,6 +35,19 @@ h2{
 }
 
 #list li{
-    /* margin: 0.7em; */
+    margin: 0.8em 0.3em;
+}
+
+button{
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(243, 122, 122);
+    border: 1px solid  rgb(243, 122, 122);
+    position: absolute;
+    left: 663px;
+}
+button:hover{
+    color: #000;
+    background-color:  rgb(243, 122, 122);
 }
 

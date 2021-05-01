@@ -1,9 +1,9 @@
 let tasks = [
-    {
-    done: false,
-    text: 'go to gym',
-    id: 1
-    },
+    // {
+    // done: false,
+    // text: 'go to gym',
+    // id: 1
+    // },
 ];
 const addTaskInputBox = document.getElementById("add-task");
 const tasksList = document.getElementById("list");
@@ -31,7 +31,10 @@ function renderList() {
         <label for="${tasks[i].id}">
             ${tasks[i].text}
         </label>
-        <button data-taskId="${tasks[i].id}" class="delete">delete</button>
+        <button 
+            data-taskId="${tasks[i].id}" 
+            class="delete"
+        >delete</button>
         </li>
         `;
         tasksList.appendChild(li);
