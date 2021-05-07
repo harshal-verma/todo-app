@@ -44,7 +44,6 @@ button{
     color: rgb(243, 122, 122);
     border: 1px solid  rgb(243, 122, 122);
     position: absolute;
-    left: 663px;
 }
 button:hover{
     color: #000;
